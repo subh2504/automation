@@ -12,4 +12,4 @@ class ChaipointAccount(models.Model):
             default=timezone.now)
             
     def __str__(self):
-        return self.mobile,self.password
+        return self.mobile+" "+self.password
