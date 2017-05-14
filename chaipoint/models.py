@@ -4,7 +4,7 @@ from django.utils import timezone
 
 
 class ChaipointAccount(models.Model):
-    author = models.ForeignKey('auth.User')
+    #author = models.ForeignKey('auth.User')
     email = models.EmailField(max_length=200)
     mobile = models.CharField(max_length=100)
     password = models.CharField(max_length=100)
